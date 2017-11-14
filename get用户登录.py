@@ -4,14 +4,14 @@ Type "copyright", "credits" or "license()" for more information.
 >>> import urllib2
 >>> values ={}
 >>> values['username'] = "yexueer1998"
->>> values['password'] = "1998.6.29zy520"
+>>> values['password'] = "xxxxxxxx"
 >>> data = urllib.urlencode(values)
 >>> url = "http://passport.csdn.net/account/login"
 >>> geturl = url + "?" +data
 >>> request = urllib2.Request(geturl)
 >>> response = urllib2.urlopen(request)
 >>> print response.geturl()
-http://passport.csdn.net/account/login?username=yexueer1998&password=1998.6.29zy520
+http://passport.csdn.net/account/login?username=yexueer1998&password=xxxxxxxxx
 >>> response.geturl
 <bound method addinfourl.geturl of <addinfourl at 34705856 whose fp = <socket._fileobject object at 0x021136F0>>>
 >>> response.gerurl()
@@ -35,7 +35,7 @@ AttributeError: addinfourl instance has no attribute 'gerurl'
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta property="qc:admins" content="24530273213633466654" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ÕÊºÅµÇÂ¼</title>
+    <title>å¸å·ç™»å½•</title>
     
     
     <link type="text/css" rel="stylesheet" href="/css/bootstrap.css;jsessionid=41CFB76D81ED9368C8E9CB80427B0462.tomcat1" />
@@ -71,15 +71,15 @@ AttributeError: addinfourl instance has no attribute 'gerurl'
           <div class="login-banner col-sm-6 col-md-7 col-lg-7 hidden-xs"><a href="http://dwz.cn/6JIiAl" target="_blank"><img src=https://csdnimg.cn/passport/login-banner.png class="img-responsive"></a></div>
           <div class="login-user col-xs-12 col-sm-6 col-md-5 col-lg-5">
             <div class="login-part">
-              <h3>ÕÊºÅµÇÂ¼ </h3>
+              <h3>å¸å·ç™»å½• </h3>
               <div class="user-info">
                 <div class="user-pass">
                 
                   <form id="fm1" action="/account/login;jsessionid=41CFB76D81ED9368C8E9CB80427B0462.tomcat1?username=yexueer1998&amp;password=1998.6.29zy520" method="post">
 
-                    <input id="username" name="username" tabindex="1" placeholder="ÊäÈëÓÃ»§Ãû/ÓÊÏä/ÊÖ»úºÅ" class="user-name" type="text" value=""/>
-                    <div class="mobile-auth" style="display:none"><span>¸ÃÊÖ»úÒÑ°ó¶¨ÕËºÅ£¬¿ÉÊ¹ÓÃ  </span><a href="" id="mloginurl" class="mobile-btn" >ÊÖ»úÑéÖ¤ÂëµÇÂ¼</a></div>
-                    <input id="password" name="password" tabindex="2" placeholder="ÊäÈëÃÜÂë" class="pass-word" type="password" value="" autocomplete="off"/>
+                    <input id="username" name="username" tabindex="1" placeholder="è¾“å…¥ç”¨æˆ·å/é‚®ç®±/æ‰‹æœºå·" class="user-name" type="text" value=""/>
+                    <div class="mobile-auth" style="display:none"><span>è¯¥æ‰‹æœºå·²ç»‘å®šè´¦å·ï¼Œå¯ä½¿ç”¨  </span><a href="" id="mloginurl" class="mobile-btn" >æ‰‹æœºéªŒè¯ç ç™»å½•</a></div>
+                    <input id="password" name="password" tabindex="2" placeholder="è¾“å…¥å¯†ç " class="pass-word" type="password" value="" autocomplete="off"/>
                    
                     
 						
@@ -93,24 +93,24 @@ AttributeError: addinfourl instance has no attribute 'gerurl'
                     <div class="row forget-password">
                     	<span class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         	<input type="checkbox" name="rememberMe" id="rememberMe" value="true" class="auto-login" tabindex="4"/>
-                        	<label for="rememberMe">ÏÂ´Î×Ô¶¯µÇÂ¼</label>
+                        	<label for="rememberMe">ä¸‹æ¬¡è‡ªåŠ¨ç™»å½•</label>
                         </span>
                         <span class="col-xs-6 col-sm-6 col-md-6 col-lg-6 forget tracking-ad" data-mod="popu_26">
-                        	<a href="/account/fpwd?action=forgotpassword&service=http%3A%2F%2Fwww.csdn.net%2F" tabindex="5">Íü¼ÇÃÜÂë</a>
+                        	<a href="/account/fpwd?action=forgotpassword&service=http%3A%2F%2Fwww.csdn.net%2F" tabindex="5">å¿˜è®°å¯†ç </a>
                         </span>
                     </div>
-                    <!-- ¸Ã²ÎÊı¿ÉÒÔÀí½â³ÉÃ¿¸öĞèÒªµÇÂ¼µÄÓÃ»§¶¼ÓĞÒ»¸öÁ÷Ë®ºÅ¡£Ö»ÓĞÓĞÁËwebflow·¢·ÅµÄÓĞĞ§µÄÁ÷Ë®ºÅ£¬ÓÃ»§²Å¿ÉÒÔËµÃ÷ÊÇÒÑ¾­½øÈëÁËwebflowÁ÷³Ì¡£·ñÔò£¬Ã»ÓĞÁ÷Ë®ºÅµÄÇé¿öÏÂ£¬webflow»áÈÏÎªÓÃ»§»¹Ã»ÓĞ½øÈëwebflowÁ÷³Ì£¬´Ó¶ø»áÖØĞÂ½øÈëÒ»´ÎwebflowÁ÷³Ì£¬´Ó¶ø»áÖØĞÂ³öÏÖµÇÂ¼½çÃæ¡£ -->
+                    <!-- è¯¥å‚æ•°å¯ä»¥ç†è§£æˆæ¯ä¸ªéœ€è¦ç™»å½•çš„ç”¨æˆ·éƒ½æœ‰ä¸€ä¸ªæµæ°´å·ã€‚åªæœ‰æœ‰äº†webflowå‘æ”¾çš„æœ‰æ•ˆçš„æµæ°´å·ï¼Œç”¨æˆ·æ‰å¯ä»¥è¯´æ˜æ˜¯å·²ç»è¿›å…¥äº†webflowæµç¨‹ã€‚å¦åˆ™ï¼Œæ²¡æœ‰æµæ°´å·çš„æƒ…å†µä¸‹ï¼Œwebflowä¼šè®¤ä¸ºç”¨æˆ·è¿˜æ²¡æœ‰è¿›å…¥webflowæµç¨‹ï¼Œä»è€Œä¼šé‡æ–°è¿›å…¥ä¸€æ¬¡webflowæµç¨‹ï¼Œä»è€Œä¼šé‡æ–°å‡ºç°ç™»å½•ç•Œé¢ã€‚ -->
 					<input type="hidden" name="lt" value="LT-308104-ZNS0zIgV29QBezFsqkrfaQHb6RWn4u" />
 			 		<input type="hidden" name="execution" value="e1s1" /> 
 					<input type="hidden" name="_eventId" value="submit" /> 
-					<input class="logging" accesskey="l" value="µÇ Â¼" tabindex="6" type="button" /> 
+					<input class="logging" accesskey="l" value="ç™» å½•" tabindex="6" type="button" /> 
                     
                   </form>
                 </div>
               </div>
               <div class="line"></div>
               <div class="third-part tracking-ad" data-mod="popu_27">
-              	<span style="width: 257px;">µÚÈı·½ÕÊºÅµÇÂ¼</span>
+              	<span style="width: 257px;">ç¬¬ä¸‰æ–¹å¸å·ç™»å½•</span>
               	<span><font color="red">  </font></span>
               	<a id="qqAuthorizationUrl" href="https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=100270989&redirect_uri=https%3A%2F%2Fpassport.csdn.net%2Faccount%2Flogin%3Foauth_provider%3DQQProvider&state=test" class="qq"></a>
               	
@@ -123,9 +123,9 @@ AttributeError: addinfourl instance has no attribute 'gerurl'
               	<a id="githubAuthorizationUrl" href="https://github.com/login/oauth/authorize?client_id=4bceac0b4d39cf045157&redirect_uri=https%3A%2F%2Fpassport.csdn.net%2Faccount%2Flogin%3Foauth_provider%3DGitHubProvider" class="github"></a>
               	<a href="javascript:;" class="show_more"></a>
               	
-                <div class="register-now"><span>»¹Ã»ÓĞCSDNÕÊºÅ£¿</span>
+                <div class="register-now"><span>è¿˜æ²¡æœ‰CSDNå¸å·ï¼Ÿ</span>
 	                <span class="register tracking-ad" data-mod="popu_28">
-	                	<a href="/account/mobileregister?action=mobileRegisterGuideView&service=http%3A%2F%2Fwww.csdn.net%2F">Á¢¼´×¢²á</a>
+	                	<a href="/account/mobileregister?action=mobileRegisterGuideView&service=http%3A%2F%2Fwww.csdn.net%2F">ç«‹å³æ³¨å†Œ</a>
 	                </span>
                	</div>
               </div>
