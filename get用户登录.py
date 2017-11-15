@@ -15,17 +15,7 @@ http://passport.csdn.net/account/login?username=yexueer1998&password=xxxxxxxxx
 >>> response.geturl
 <bound method addinfourl.geturl of <addinfourl at 34705856 whose fp = <socket._fileobject object at 0x021136F0>>>
 >>> response.gerurl()
-
-Traceback (most recent call last):
-  File "<pyshell#12>", line 1, in <module>
-    response.gerurl()
-AttributeError: addinfourl instance has no attribute 'gerurl'
 >>> print response.read()
-
-
-
-
-
 
 
 <html>
