@@ -49,6 +49,7 @@ class BDTB:
         self.defaultTitle = u"百度贴吧"
         #是否写入楼分隔符的标记
         self.floorTag = floorTag
+        self.enable = False
 
     #传入页码，获取该页帖子的代码
     def getPage(self,pageNum):
@@ -108,6 +109,7 @@ class BDTB:
     def writeData(self,contents):
         #向文件写入每一楼的信息
         for item in contents:
+            input = raw_input()
             if self.floorTag == '1':
                 #楼之间的分隔符
                 floorLine = "\n" + str(self.floor) + u"-----------------------------------------------------------------------------------------\n"
@@ -117,6 +119,8 @@ class BDTB:
             print(item)
 
     def start(self):
+        print u'正在读取，回车查看'
+        self.enable = False
         indexPage = self.getPage(1)
         pageNum = self.getPageNum(indexPage)
         title = self.getTitle(indexPage)
@@ -140,5 +144,6 @@ class BDTB:
 baseURL = 'http://tieba.baidu.com/p/5461670891'
 seeLZ = raw_input("是否只获取楼主发言，是输入1，否输入0\n")
 floorTag = raw_input("是否写入楼层信息，是输入1，否输入0\n")
+
 bdtb = BDTB(baseURL,seeLZ,floorTag)
 bdtb.start()
